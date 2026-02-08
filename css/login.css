@@ -1,0 +1,131 @@
+.login-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 380px;
+    margin: 0 15px;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-card:hover {
+    transform: translateY(4px);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+}
+
+/* Company name */
+.brand-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2A7FFF;
+    letter-spacing: 1px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 15px;
+}
+
+.brand img {
+    width: 90px;
+    max-width: 100%;
+    height: auto;
+}
+
+.subtitle {
+    color: var(--text-light);
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+label {
+    font-size: 14px;
+    color: var(--text-dark);
+    font-weight: bold;
+}
+
+/*Input fields*/
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid var(--border-light);
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.25s ease;
+}
+
+input:hover {
+  transform: translateY(2px);
+}
+
+input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(42, 127, 255, 0.2);
+}
+
+/* Login button */
+button {
+    width: 100%;
+    padding: 11px;
+    background: #2A7FFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(3px);
+    background: #1F6AE1;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+button:active {
+    transform: translateY(5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.footer-text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+
+/* Responsive Design (Mobile) */
+   
+@media (max-width: 480px) {
+
+    .brand {
+        flex-direction: column;   /* logo upar, text niche */
+        gap: 8px;
+    }
+
+    .brand-text {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .login-card {
+        padding: 25px;
+    }
+
+    button {
+        font-size: 15px;
+    }
+}

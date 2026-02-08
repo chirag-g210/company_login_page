@@ -1,0 +1,30 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* COLOR VARIABLES */
+:root {
+    --primary: #2A7FFF;        
+    --primary-dark: #1F6AE1;
+
+    --bg-light: #F4F9FF;      
+    --card-bg: #FFFFFF;
+
+    --text-dark: #1F2D3D;
+    --text-light: #6B7C93;
+
+    --border-light: #DCE6F2;
+}
+
+/* Page background (for all pages) */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #E8F1FF, #F6FBFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
