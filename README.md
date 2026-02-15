@@ -14,20 +14,20 @@ This project is created for practice and learning purposes.
 - CSS
 - JavaScript
 
-<pre>
-## 📂 Project Structure
-company_login_page/
-│── assets
-    │── images
-│── css
-    │──  common.css
-    │──  dashboard.css
-    │──  login.css
-│──  pages
-    │── index.html
-    │── dashboard.html
-    │── profile.html
-│── script.js
+
+## 📂 Project Structure <br>
+company_login_page/ <br>
+│── assets<br>
+    │── images<br>
+│── css<br>
+    │──  common.css<br>
+    │──  dashboard.css<br>
+    │──  login.css<br>
+│──  pages<br>
+    │── index.html<br>
+    │── dashboard.html<br>
+    │── profile.html<br>
+│── script.js<br>
 </pre>
 
 
