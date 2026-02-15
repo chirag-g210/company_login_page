@@ -14,6 +14,7 @@ This project is created for practice and learning purposes.
 - CSS
 - JavaScript
 
+<pre>
 ## 📂 Project Structure
 company_login_page/
 │── assets
@@ -27,7 +28,7 @@ company_login_page/
     │── dashboard.html
     │── profile.html
 │── script.js
-
+</pre>
 
 
 ## ▶️ How to Run the Project
