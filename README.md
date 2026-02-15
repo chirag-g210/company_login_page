@@ -18,7 +18,7 @@ This project is created for practice and learning purposes.
 ## 📂 Project Structure <br>
 company_login_page/ <br>
 │── assets<br>
-    │── images<br>
+<\t>│── images<br>
 │── css<br>
     │──  common.css<br>
     │──  dashboard.css<br>
