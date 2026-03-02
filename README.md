@@ -54,7 +54,7 @@ This project is made to:
 ---
 
 ## 📸 UI Preview
-(![alt text](screenshot.png))
+![alt text](screenshot.png)
 
 ---
 
