@@ -53,6 +53,11 @@ This project is made to:
 
 ---
 
+## 📸 UI Preview
+(![alt text](screenshot.png))
+
+---
+
 ## 📌 Future Improvements
 - Add backend authentication
 - Password validation
