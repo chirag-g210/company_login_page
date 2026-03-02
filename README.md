@@ -24,16 +24,17 @@ This project is created for practice and learning purposes.
 <pre>
 company_login_page/ 
 │── assets
-    │── images
+|   │── images
 │── css
-    │──  common.css
-    │──  dashboard.css
-    │──  login.css
+|   │──  common.css
+|   │──  dashboard.css
+|   │──  login.css
 │──  pages
-    │── index.html
-    │── dashboard.html
-    │── profile.html
-│── script.js
+|   │── index.html
+|   │── dashboard.html
+|   │── profile.html
+│── server.js
+│── screenshot.png
 </pre>
 
 ---
