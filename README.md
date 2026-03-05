@@ -21,7 +21,7 @@ This project is created for practice and learning purposes.
 ---
 
 ## 📂 Project Structure 
-<pre>
+```
 company_login_page/ 
 │── assets
 |   │── images
@@ -35,7 +35,7 @@ company_login_page/
 |   │── profile.html
 │── server.js
 │── screenshot.png
-</pre>
+```
 
 ---
 
